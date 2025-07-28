@@ -1,0 +1,9 @@
+# Dataset files
+01_dataset/
+03_notebooks/01_dataset/
+*.csv
+*.rar
+
+# Python cache and notebook junk
+__pycache__/
+*.ipynb_checkpoints/
