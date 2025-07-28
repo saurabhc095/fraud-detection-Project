@@ -1,0 +1,21 @@
+# Core Libraries
+pandas==2.2.2           # For data manipulation and analysis
+numpy==1.26.4           # For numerical operations and array handling
+
+# Visualization Libraries
+matplotlib==3.8.4       # For basic plots and graphs (line, bar, pie, etc.)
+seaborn==0.13.2         # For advanced and attractive statistical visualizations
+
+# Machine Learning
+scikit-learn==1.4.2     # For model building (Logistic Regression, Decision Tree, Random Forest) and metrics
+imbalanced-learn==0.12.0  # For handling imbalanced data (using SMOTE)
+
+# Environment & Notebook
+jupyter==1.0.0          # To run and manage Jupyter Notebooks
+
+# Optional but Useful (can be removed if not used)
+openpyxl==3.1.2         # For handling Excel file read/write (if needed)
+xgboost==2.0.3          # (Optional) In case used for future improvements
+
+# For compatibility (Power BI data export)
+xlrd==2.0.1             # For reading older Excel files (if .xls formats are used)
